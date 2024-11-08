@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mapboxgl-popup-content {
+  @apply rounded-lg shadow-lg border border-gray-200;
+}
+
+.marker {
+  @apply shadow-md border-2 border-white transition-all duration-200;
+}
+
+.marker:hover {
+  @apply scale-125;
+}
