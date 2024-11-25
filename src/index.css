@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+<<<<<<< HEAD
 
 .mapboxgl-popup-content {
   @apply rounded-lg shadow-lg border border-gray-200;
@@ -13,3 +14,5 @@
 .marker:hover {
   @apply scale-125;
 }
+=======
+>>>>>>> a11e5b7e1ab49f05e67cc399be2ff3ba592d64d7

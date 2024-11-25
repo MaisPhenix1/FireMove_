@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect } from 'react';
 import { useEvacuationStore } from './store/evacuationStore';
 import { NotificationManager } from './components/NotificationManager';
@@ -37,6 +38,14 @@ function App() {
           {isAdmin && <EvacuationMap />}
         </div>
       </div>
+=======
+import React from 'react';
+
+function App() {
+  return (
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <p>Start prompting (or editing) to see magic happen :)</p>
+>>>>>>> a11e5b7e1ab49f05e67cc399be2ff3ba592d64d7
     </div>
   );
 }
